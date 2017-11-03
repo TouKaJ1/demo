@@ -1,0 +1,549 @@
+*{
+	margin: 0;padding:0
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display:block;
+}
+
+#top,#head,#btm,#banner,#conduct,#content,#official,#selection,#bottom{
+	width:1200px;
+	margin:0 auto;
+}
+#header{
+	width:1200px;
+	height:190px;
+	margin:0 auto;
+	border-bottom: 1px solid red;
+}
+/*导航*/
+#top{
+	height:30px;
+	float:left;
+	background:#f8f8f8
+}
+#top ul{
+	float:right;
+	height:20px;
+	margin-top: 5px;
+}
+#top li{
+	float:left;
+	padding: 0 18px;
+	font-size:12px;
+	line-height:20px;
+	border-right: 1px dashed black;
+	position:relative;
+}
+
+#top li:last-child {
+	border:none;
+} 
+#top li a{
+	color:gray
+}
+/*#top ul .dh-li{
+	width:85px;
+	height:120px;
+	background:pink;
+}*/
+#top .dh-li1 .dh-span1{
+	width:110px;
+	height:50px;
+	font-size:12px;
+	position:absolute;
+	top:25px;
+	left:0;
+	background:#f8f8f8;
+}
+#top .dh-span1 span{
+	display: inline-block;
+	width:110px;
+	height:25px;
+	float:left;
+	text-align: center;
+}
+#top .dh-li .dh-span{
+	width:85px;
+	height:75px;
+	font-size:12px;
+	position:absolute;
+	top:25px;
+	left:0;
+	background:#f8f8f8;
+}
+#top .dh-li .dh-span span{
+	display:inline-block;
+	width:85px;
+	height:25px;
+	float:left;
+	text-align: center;
+}
+#top .dh-a:hover{
+	color:red;
+}
+.dh-span a{
+	color:#333
+}
+
+.iconfont{
+	line-height:18px;
+	padding-right:5px;
+}
+.icon-gouwuche{
+	color:red;
+}
+#head{
+	width:990px;
+	height:120px;
+	background:url(../img/logo_03.jpg) no-repeat 0 40px;
+	float:left;
+}
+#head .logo1{
+	float:right;
+}
+#head .logo1 img{
+	display:block;
+	float:right
+}
+
+#head #cardT{
+	width:520px;
+	height:56px;
+	padding-top:20px;
+	margin-left:360px;
+	float:left;
+}
+#cardT .tabU li{
+	float:left;
+	text-align: center;
+	width:56px;
+	height:24px;
+}
+#cardT .tabU li a{
+	line-height:24px;
+}
+#cardT .sp1{
+	background:#ff3366;
+}
+#cardT .sp1 a{
+	color:#fff;
+}
+#cardT .sp2{
+	background:#f2f2f2;
+}
+#cardT .sp2 a{
+	color:#333;
+}
+#cardT .tabO{
+	width:520px;
+	height:32px;
+}
+#cardT #txt{
+	width:445px;
+	height:28px;
+	border:2px solid #ff3366;
+	float:left;
+}
+
+#cardT .tabO>li{
+	width:520px;
+	height:32px;
+}
+#cardT .tabO .fdj{
+	width:70px;
+	height:32px;
+	background:#ff3366;
+	float:left;
+	background:url(../img/fdj_03.jpg) no-repeat 25px center,#ff3366;
+}
+#cardT .flow{
+	width:520px;
+	height:12px;
+	float:left;
+	margin-top:10px;
+}
+#cardT li a{
+	font-size:12px;
+	font-weight: 300;
+	color:darkgray;
+	float:left;
+	padding-left:15px;
+}
+#cardT .tabO>li a{
+	padding-left:0
+}
+#btm{
+	width:990px;
+	height:40px;
+	float:left;
+	margin-top:43px;
+}
+#btm #shopper{
+	width:285px;
+	height:40px;
+	background:red;
+	text-align: center;
+	line-height:40px;
+	font-size:12px;
+	color:#fff;
+	float:left;
+	cursor: pointer;
+}
+#btm .nav{
+	width:500px;
+	float:left;
+}
+#btm .nav li{
+	float:left;
+	margin-left:80px;
+	line-height:40px;
+}
+#btm .nav li a{
+	color:#666666
+}
+/*banner*/
+#banner{
+	height:468px;
+
+}
+/*导航*/
+/*----------------------------------------------------------------------------------------*/
+#banner #navL{
+	width:282px;
+	height:466px;
+	border:1px solid red;
+	float:left;
+}
+#navL>ul{
+	width:244px;
+	height:42px;
+	background:red
+	float:left;
+	border-bottom:1px dashed red; 
+	margin-left:20px;
+}
+#navL>ul:last-child{
+	border:none;
+}
+#navL>ul li{
+	width:auto;
+	height:40px;
+	float:left;
+	line-height:39px;
+	margin-right:10px;
+}
+#navL>ul li a{
+	font-size:12px;
+	color:#333
+}
+#navL>ul span{
+	font-size:20px;
+	line-height:40px;
+	float:right;
+	color:#000000;
+}
+/*轮播图*/
+/*-----------------------------------------------------------------------------------------------*/
+#banner #ban{
+	width:895px;
+	height:468px;
+	float:right;
+	overflow: hidden;
+    position: relative;
+}
+
+#ban ul{
+    position:relative;
+}
+#ban ul li{
+	position:absolute;
+    top:0;
+    left:0;
+}
+#ban ul li img{
+	width:896px;
+	height:447px;
+	margin-top:20px;
+}
+#ban ol{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 190px;
+}
+#ban ol li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: default;
+    background-color: #abc;
+}
+#ban ol li.current{
+    background-color: red;
+}
+#banL{
+	width:36px;
+	height:55px;
+	background:#ccc;
+	font-size:50px;
+	color:#fff;
+	line-height:44px;
+	position: absolute;
+	left:0;
+	top:210px;
+	z-index: 1000;
+	opacity:0.5;
+	display:none;
+	cursor: pointer;
+}
+#banR{
+	width:36px;
+	height:55px;
+	background:#ccc;
+	font-size:50px;
+	line-height:44px;
+	color:#fff;
+	position: absolute;
+	right:0;
+	top:210px;
+	z-index:1000;
+	display:none;
+	opacity:0.5;
+	cursor: pointer;
+}
+
+/*conduct*/
+/*------------------------------------------------------------------------------------------*/
+#conduct{
+	height:285px;
+	margin-top:20px;
+}
+
+#conduct ul li{
+	float:left;
+	margin-right:20px;
+}
+#conduct ul li:last-child{
+	margin-right:0;
+}
+
+/*商品*/
+/*----------------------------------------------------------------------------------------------*/
+#official{
+	height:690px;
+	margin-top:80px;
+}
+#official>h2{
+	width:1200px;
+	height:40px;
+	font-size:28px;
+	font-weight:900;
+	text-align:center;
+	float:left
+}
+#official>h6{
+	width:1200px;
+	height:30px;
+	font-size:16px;
+	font-weight:300;
+	text-align: center;
+	float:left;
+	background:url(../img/line_03.jpg) no-repeat bottom center;
+	margin-top:10px;
+}
+
+#ofic{
+	width:1200px;
+	height:600px;
+	float:left;
+	margin-top:10px;
+}
+#offL{
+	width:284px;
+	height:600px;
+	float:left;
+}
+.forever{
+	width:284px;
+	height:308px;
+	float:left;
+}
+.forever img{
+	display:block;
+	width:284px;
+	height:308px;
+}
+#offL .logo{
+	width:284px;
+	height:295px;
+	float:left;
+}
+.logo li{
+	float:left;
+	width:140px;
+	height:96px;
+	border:1px solid #ccc;
+}
+
+#offC{
+	width:305px;
+	height:600px;
+	margin-left:20px;
+	float:left;
+}
+#offC img{
+	width:305px;
+	height:600px;
+}
+
+#offR{
+	width:590px;
+	height:600px;
+	float:right;
+}
+#offR img{
+	width:293px;
+	height:298px;
+	float:left;
+	border:1px solid #ccc;
+}
+
+
+#selection{
+	height:625px;
+	margin-top:80px;
+}
+
+#selection>h2{
+	width:1200px;
+	height:40px;
+	font-size:28px;
+	font-weight:900;
+	text-align:center;
+	float:left
+}
+#selection>h6{
+	width:1200px;
+	height:30px;
+	font-size:16px;
+	font-weight:300;
+	text-align: center;
+	float:left;
+	background:url(../img/line_03.jpg) no-repeat bottom center;
+	margin-top:10px;
+}
+#selection .sn1{
+	margin-top:20px;
+	width:590px;
+	height:285px;
+	float:left;
+}
+#selection .sn1 img{
+	width:590px;
+	height:285px;
+}
+#selection .sn2{
+	width:610px;
+	height:285px;
+	float:left;
+	margin-top:20px;
+}
+#selection .sn2 img{
+	width:182px;
+	height:220px;
+	float:left;
+}
+#selection .sn2 li{
+	width:182px;
+	height:220px;
+	float:left;
+	margin-left:20px;
+}
+#selection .sn2 span{
+	display:block;
+	width:182px;
+}
+#selection .sntxt1{
+	font-weight:700;
+	font-size:14px;
+	line-height:34px;
+	text-align:center;
+}
+#selection .sntxt2{
+	font-weight:200;
+	line-height:12px;
+	font-size:12px;
+	text-align:center;
+}
+#selection .sn3{
+	width:284px;
+	height:220px;
+	background:#f9f9f9;
+	float:left;
+	margin-top:20px;
+}
+#selection .sn3>ul{
+	margin-left:20px;
+}
+#selection .sn3 li{
+	margin-right:35px;
+	height:44px;
+	float:left;
+}
+#selection .sn3 li a{
+	color:#111;
+	font-size:14px;
+	line-height:44px;
+}
+#selection .sn4{
+	width:915px;
+	height:220px;
+	float:left;
+	margin-top:20px;
+}
+#selection .sn4 img{
+	margin-left:20px;
+	float:left;
+}
+/*bottom--------------------------------------------------------------------*/
+
+#bottom{
+	height:300px;
+	background:#f5f5f5;
+	margin-top:80px;
+}
+#bottom #btmT{
+	height:230px;
+	width:1200px;
+	border-top:2px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+#btmT ul{
+	width:85px;
+	height:230px;
+	float:left;
+	margin-right:100px;
+	margin-top:30px;
+}
+.btmTR{
+	float:left;
+	margin-top:30px;
+}
+.btmTR>div{
+	width:135px;
+	height:150px;
+	float:left;
+}
+.btmTR .ewm2{
+	margin-left:50px;
+}

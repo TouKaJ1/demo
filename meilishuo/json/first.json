@@ -1,0 +1,26 @@
+[
+	{
+		"id" : "picf01",
+		"num" : "1" ,
+		"src" : "img/banner1.jpg",
+		"index" : "4"
+	},
+	{
+		"id" : "picf02",
+		"num" : "2" ,
+		"src" : "img/banner2.jpg",
+		"index" : "3"
+	},
+	{
+		"id" : "picf03",
+		"num" : "3" ,
+		"src" : "img/banner3.jpg",
+		"index" : "2"
+	},
+	{
+		"id" : "picf04",
+		"num" : "4" ,
+		"src" : "img/banner4.jpg",
+		"index" : "1"
+	}
+]
